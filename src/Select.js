@@ -151,7 +151,6 @@ var Select = React.createClass({
 
 	componentWillUnmount: function() {
 		clearTimeout(this._blurTimeout);
-		clearTimeout(this._focusTimeout);
 		if (this.state.isOpen) {
 			this._unbindCloseMenuIfClickedOutside();
 		}
@@ -182,12 +181,8 @@ var Select = React.createClass({
 	},
 
 	componentDidUpdate: function() {
-		if (!this.props.disabled && this._focusAfterUpdate) {
+		if (!this.props.disabled) {
 			clearTimeout(this._blurTimeout);
-			this._focusTimeout = setTimeout(() => {
-				this.getInputNode().focus();
-				this._focusAfterUpdate = false;
-			}, 50);
 		}
 		if (this._focusedOptionReveal) {
 			if (this.refs.focused && this.refs.menu) {
@@ -283,10 +278,7 @@ var Select = React.createClass({
 		});
 	},
 
-	setValue: function(value, focusAfterUpdate) {
-		if (focusAfterUpdate || focusAfterUpdate === undefined) {
-			this._focusAfterUpdate = true;
-		}
+	setValue: function(value) {
 		var newState = this.getStateFromValue(value);
 		newState.isOpen = false;
 		this.fireChangeEvent(newState);
@@ -407,7 +399,6 @@ var Select = React.createClass({
 
 	handleInputBlur: function(event) {
 		this._blurTimeout = setTimeout(() => {
-			if (this._focusAfterUpdate) return;
 			this.setState({
 				isFocused: false,
 				isOpen: false
