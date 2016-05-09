@@ -40,6 +40,8 @@ var Select = React.createClass({
 		noResultsText: React.PropTypes.string,     // placeholder displayed when there are no matching search results
 		onBlur: React.PropTypes.func,              // onBlur handler: function(event) {}
 		onChange: React.PropTypes.func,            // onChange handler: function(newValue) {}
+        onOpen: React.PropTypes.func,              // fires when the menu is opened
+        onClose: React.PropTypes.func,             // fires when the menu is closed
 		onFocus: React.PropTypes.func,             // onFocus handler: function(event) {}
 		onOptionLabelClick: React.PropTypes.func,  // onCLick handler for value labels: function (value, event) {}
 		optionComponent: React.PropTypes.func,     // option component to render in dropdown
@@ -179,6 +181,13 @@ var Select = React.createClass({
 			}
 		}
 	},
+
+    componentWillUpdate: function(nextProps, nextState) {
+        if (nextState.isOpen !== this.state.isOpen) {
+            const handler = nextState.isOpen ? nextProps.onOpen : nextProps.onClose;
+            handler && handler();
+        }
+    },
 
 	componentDidUpdate: function() {
 		if (!this.props.disabled) {
