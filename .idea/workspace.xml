@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3663cfd-f43b-4942-aaaa-dbe4c9982401" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Select.js" afterPath="$PROJECT_DIR$/src/Select.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Select.js" afterPath="$PROJECT_DIR$/lib/Select.js" />
     </list>
     <ignored path="react-select.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Select.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Select.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Select.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="197" column="35" selection-start-line="197" selection-start-column="35" selection-end-line="197" selection-end-column="35" />
+            <state relative-caret-position="161">
+              <caret line="183" column="18" selection-start-line="183" selection-start-column="18" selection-end-line="183" selection-end-column="18" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -48,18 +48,18 @@
       <file leaf-file-name="react-select.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/react-select.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2535">
-              <caret line="334" column="17" selection-start-line="334" selection-start-column="17" selection-end-line="334" selection-end-column="17" />
+            <state relative-caret-position="690">
+              <caret line="183" column="20" selection-start-line="183" selection-start-column="20" selection-end-line="183" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Select.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Select.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/Select.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+            <state relative-caret-position="585">
+              <caret line="193" column="15" selection-start-line="193" selection-start-column="15" selection-end-line="193" selection-end-column="15" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -106,8 +106,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/dist/react-select.js" />
-        <option value="$PROJECT_DIR$/lib/Select.js" />
         <option value="$PROJECT_DIR$/src/Select.js" />
+        <option value="$PROJECT_DIR$/lib/Select.js" />
       </list>
     </option>
   </component>
@@ -293,12 +293,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1462819494563</updated>
-      <workItem from="1462819495916" duration="10843000" />
+      <workItem from="1462819495916" duration="11378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10843000" />
+    <option name="totallyTimeSpent" value="11378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1299" y="-1057" width="1908" height="1025" extended-state="0" />
@@ -384,26 +384,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/react-select.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2535">
-          <caret line="334" column="17" selection-start-line="334" selection-start-column="17" selection-end-line="334" selection-end-column="17" />
+        <state relative-caret-position="690">
+          <caret line="183" column="20" selection-start-line="183" selection-start-column="20" selection-end-line="183" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Select.js">
+    <entry file="file://$PROJECT_DIR$/src/Select.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+        <state relative-caret-position="161">
+          <caret line="183" column="18" selection-start-line="183" selection-start-column="18" selection-end-line="183" selection-end-column="18" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Select.js">
+    <entry file="file://$PROJECT_DIR$/lib/Select.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="197" column="35" selection-start-line="197" selection-start-column="35" selection-end-line="197" selection-end-column="35" />
+        <state relative-caret-position="585">
+          <caret line="193" column="15" selection-start-line="193" selection-start-column="15" selection-end-line="193" selection-end-column="15" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
