@@ -13,7 +13,7 @@ var requestId = 0;
 
 var Select = React.createClass({
 
-    displayName: 'Select',
+	displayName: 'Select',
 
     propTypes: {
         addLabelText: React.PropTypes.string,      // placeholder displayed when you want to add a label on a multi-value input
@@ -297,7 +297,7 @@ var Select = React.createClass({
 
     setValue: function (value) {
         var newState = this.getStateFromValue(value);
-        //newState.isOpen = false;
+        newState.isOpen = false;
         this.fireChangeEvent(newState);
         this.setState(newState);
     },
