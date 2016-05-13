@@ -233,7 +233,7 @@ var Select = React.createClass({
 	},
 
     componentWillUpdate: function (nextProps, nextState) {
-        if (nextState.isOpen !== this.state.isOpen) {
+        if (nextState.isOpen !== this.state.isOpen) { //if switching states
             const handler = nextState.isOpen ? nextProps.onOpen : nextProps.onClose;
             handler && handler();
         }

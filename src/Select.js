@@ -297,7 +297,7 @@ var Select = React.createClass({
 
     setValue: function (value) {
         var newState = this.getStateFromValue(value);
-        newState.isOpen = false;
+        //newState.isOpen = false;
         this.fireChangeEvent(newState);
         this.setState(newState);
     },
