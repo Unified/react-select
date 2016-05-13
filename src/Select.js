@@ -189,7 +189,7 @@ var Select = React.createClass({
 
     componentWillUpdate: function (nextProps, nextState) {
         if (nextState.isOpen !== this.state.isOpen) {
-            const handler = nextState.isOpen ? nextProps.onOpen : nextProps.onClose;
+            var handler = nextState.isOpen ? nextProps.onOpen : nextProps.onClose;
             handler && handler();
         }
     },

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3663cfd-f43b-4942-aaaa-dbe4c9982401" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Select.js" afterPath="$PROJECT_DIR$/lib/Select.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Select.js" afterPath="$PROJECT_DIR$/src/Select.js" />
     </list>
     <ignored path="react-select.iws" />
@@ -28,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/src/Select.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="371">
-              <caret line="70" column="27" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
+              <caret line="197" column="35" selection-start-line="197" selection-start-column="35" selection-end-line="197" selection-end-column="35" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -294,12 +293,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1462819494563</updated>
-      <workItem from="1462819495916" duration="10399000" />
+      <workItem from="1462819495916" duration="10843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10399000" />
+    <option name="totallyTimeSpent" value="10843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1299" y="-1057" width="1908" height="1025" extended-state="0" />
@@ -404,7 +403,7 @@
     <entry file="file://$PROJECT_DIR$/src/Select.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
-          <caret line="70" column="27" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
+          <caret line="197" column="35" selection-start-line="197" selection-start-column="35" selection-end-line="197" selection-end-column="35" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
